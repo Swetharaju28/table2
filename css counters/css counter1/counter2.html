@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            counter-reset: chapter;
+        }
+        h1{
+            counter-reset: subchapter;
+        }
+        h1::before{
+            counter-increment: chapter;
+            content:"chapter" counter(chapter)
+". ";
+        }
+        h2::before{
+            counter-increment: chapter;
+            content:counter(chapter) " . " counter(subsection) " ";
+                }
+    </style>
+</head>
+<body>
+    <h1>html/css tutorials</h1>
+    <h2>html</h2>
+    <h2>css</h2>
+    <h2>bootstrap</h2>
+    <h2>w3./css</h2>
+
+    <h1>scripting tutorial</h1>
+    <h2>java script</h2>
+    <h2>jquery</h2>
+    <h2>react</h2>
+
+    <h1>programming tutorials</h1>
+    <h2>Python</h2>
+    <h2>java</h2>
+    <h2>c++</h2>
+</body>
+</html>

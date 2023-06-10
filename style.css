@@ -1,0 +1,22 @@
+table{
+    text-align: center;
+    color: white;
+    width: 60%;
+}
+
+.sno{
+    background-color: rgb(116, 176, 56);
+    
+}
+.name{
+    background-color: burlywood;
+}
+.address{
+    background-color: rgb(150, 82, 214);
+}
+.number{
+    background-color: rgb(193, 122, 72);
+}
+.country{
+    background-color: rgb(237, 68, 68);
+}
